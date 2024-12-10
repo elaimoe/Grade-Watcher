@@ -17,7 +17,7 @@ from email.mime.text import MIMEText
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)  # 测试时 INFO 可改成 DEBUG
-sleep_time = 2  # 默认每轮请求间隔时间，单位为秒，最小建议为 60，过高速度可能会导致封禁
+sleep_time = 60  # 默认每轮请求间隔时间，单位为秒，最小建议为 60，过高速度可能会导致封禁
 
 
 class User:
