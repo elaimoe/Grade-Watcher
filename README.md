@@ -1,4 +1,4 @@
-适用于URP教务系统学生站
+适用于清元优软URP（University Resource Planning）教务系统学生站
 
 功能：监控教务系统页面，当有成绩更新时发送邮件进行提醒。
 
@@ -16,7 +16,7 @@
         mail_sender_port='465', # smtp 服务器端口
 
         mail_receiver='',  # 收件人邮箱
-        base_url='http://jwstudent.lnu.edu.cn' # 教务系统地址
+        base_url='http://jwstudent.lnu.edu.cn' # 教务系统地址，本程序仅对本校做了适配，其它学校的可能要自行微调代码
     )
 ```
 
